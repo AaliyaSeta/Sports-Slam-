@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aaliya's Game</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <h1>Sports Slam!</h1>
+
+</head>
+<body>
+
+    <div id="game">
+        <div id="character"></div>
+    </div>
+
+    <p>Score: <span id="scoreSpan"></span></p>
+
+<!-- MUSIC -->
+<audio id = "idAudio">
+    <source src = "song.mp3" type = "audio/ogg" >
+</audio>
+<button onclick = "playaudio()" type = "button" id = "btn1"> Play 🎵 </button>
+<button onclick = "pauseaudio()" type = "button" id = "btn2"> Pause 🎵</button>
+<button onclick = "stopaudio()" type = "button" id = "btn3"> Stop 🎵</button>
+<!-- MUSIC -->
+
+
+<!-- DARK MODE -->
+<button onclick="myFunction()" id = "btn4">Light/Dark Mode</button>
+<!-- DARK MODE -->
+
+<!-- IMAGE -->
+<input type="button" onclick="imagefun()" id = "btn5"value="Change Avatar">
+<img src="soccer.png" id="getImage">
+<!-- IMAGE -->
+
+
+</body>
+<script src="script.js"></script>
+</html>

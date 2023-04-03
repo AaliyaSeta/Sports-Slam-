@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url("sky.jpeg");
+    margin: auto;
+    overflow: hidden;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-image: url('soccer.png');
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 1000000;
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-image: url("grass.png");
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: rgb(142,218,250);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+    font-family:monospace;
+    text-align: center;
+    background-color:rgb(100,180,36); margin-left: 450px; margin-right: 450px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    position: relative;
+    top: -10px;
+}
+
+
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+  
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#btn1{
+    background-color: rgb(2, 255, 74);
+    font-family:monospace;
+    padding: 15px 32px;
+    font-size: 20px;
+    position: relative;
+    top: -400px;
+    margin-left: 150px;
+}
+
+#btn2{
+    background-color: rgb(234, 255, 2);
+    font-family:monospace;
+    padding: 15px 32px;
+    font-size: 20px;
+    position: relative;
+    top: -300px;
+    margin-left: -150px;
+}
+
+#btn3{
+    background-color: rgb(255, 0, 0);
+    font-family:monospace;
+    padding: 15px 32px;
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    top: -200px;
+    margin-left: -170px;
+}
+
+#btn4{
+    background-color: rgb(0, 0, 0);
+    font-family:monospace;
+    color: white;
+    padding: 15px 32px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 1050px;
+    top:-300px;
+}
+
+#btn5{
+    background-color: rgb(255, 112, 143);
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    font-size: 20px;
+    position: relative;
+    top: -500px;
+    left: 1050px;
+}
+
+#getImage{
+    position: relative;
+    margin-left: 770px;
+    top: -495px;
+    border: 2px solid rgb(255, 112, 143);
+}
+
